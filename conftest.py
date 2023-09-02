@@ -16,7 +16,6 @@ def browser(request):
     browser.implicitly_wait(10)
 
     yield browser
-    print("\nquit browser..")
     browser.quit()
 
 
